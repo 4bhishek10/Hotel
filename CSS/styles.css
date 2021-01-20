@@ -1,0 +1,147 @@
+body{
+  font-family: "Montserrat",sans-serif;
+}
+#Title {
+  background-color: #f9ed69;
+  color: #b83b5e;
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+}
+.main-container{
+  padding-top: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 3%;
+}
+.navbar{
+  background-color: #f9ed69;
+  font-family: 'Ubuntu';
+  color: #b83b5e;
+  padding: 0% 2% 0% 2%;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  font-size: 2rem;
+  color: #b83b5e;
+}
+nav a:hover {
+  border: solid 1px #b83b5e ;
+  border-radius: 10%;
+}
+.headings{
+  margin-top: 2%;
+  border: 10px solid #6a2c70;
+  text-align: left;
+  padding: 5% 15% 8% 15%;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 7rem;
+  padding: 3% 0%;
+  }
+h3{
+  font-size: 2rem;
+  /* margin-top: 10px; */
+  padding: 1% 0%;
+}
+
+.book-btn {
+  margin-top: : 2%;
+}
+
+/* features section */
+#features {
+  text-align: center;
+}
+.col-lg-4{
+
+}
+.features-img {
+  border: solid 3px #6a2c70;
+  border-radius: 100%;
+  width: 75%;
+}
+.feature-heading {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 700;
+  margin-top: 3%;
+  color: #b83b5e;
+}
+
+/* reviews section */
+#reviews {
+  text-align: center;
+  background-color: #f08a5d;
+}
+.car-img {
+  width: 80%;
+  height: 80%;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.carousel-item {
+  padding: 3% 13% 3% 13%;
+}
+.review {
+  position: absolute;
+  top: 150px;
+  right: 50px;
+}
+.ct-image {
+  width: 50%;
+}
+#tripadvisor {
+  width: 20%;
+}
+
+#contact{
+  text-align: right;
+}
+.details {
+  position: absolute;
+  /* top: 320%;
+  right: 15%; */
+  top: 1950px;
+  right: 200px;
+  border-radius: 100%;
+  border: 3px solid #6a2c70;
+  padding: 5% 5% 5% 5%;
+}
+.pineapple {
+  position: relative;
+  width: 100%;
+}
+.contactus {
+  background-color: #E6E1DE;
+}
+footer{
+  text-align: center;
+  background-color: #f9ed69;
+  color: #b83b5e;
+}
+@media (max-width:991px) {
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+  h3 {
+    padding: 3% 0%;
+  }
+
+  .features-img {
+    width: 25%;
+  }
+  .details {
+    top: 2100px;
+  }
+}
+/* @media (max-width:1306px) {
+  .details {
+    top: 2100px;
+  }
+} */

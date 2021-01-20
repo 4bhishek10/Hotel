@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hotel</title>
+  <link rel="icon" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!-- Logos -->
+  <script src="https://kit.fontawesome.com/be9dfcc8d0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css" media="screen">
+</head>
+
+<body>
+  <section id="Title">
+    <div class="container-fluid main-container">
+      <!-- NavBar -->
+      <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hotel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav navbar-text">
+              <a class="nav-link active" style="color: #b83b5e; font-size: 1rem;" aria-current="page" href="#reviews">Reviews</a>
+              <a class="nav-link active" style="color: #b83b5e; font-size: 1rem;" href="#features">Features</a>
+              <a class="nav-link active" style="color: #b83b5e; font-size: 1rem;" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="headings">
+        <h1>H o t e l</h1>
+        <h3>Lose yourself to find yourself</h3>
+        <button type="button" class="book-btn btn btn-outline-dark btn-lg"><i class="fas fa-concierge-bell"></i> Book-A-Room</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- features Section     -->
+  <section id="features">
+    <div class="container-fluid main-container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 fea">
+          <img src="images/bed.jpg" class="features-img">
+          <h3 class="feature-heading">Beautiful Room's</h3>
+          <p>The Suites exhibit grandeur with their master bathroom that is equipped with Jacuzzi and a separate shower cubicle. A sleek, self-contained mini-bar and plush floor in the suite add to its exquisiteness.</p>
+        </div>
+        <div class="col-lg-4 col-md-12 fea">
+          <img src="images/breakfast.jpg" class="features-img">
+          <h3 class="feature-heading">Breakfast on Bed</h3>
+          <p>Amazing breakfast on bed service that will provide your early morning breakfast of your choice on your bed, so you can enjoy your breakfast.</p>
+        </div>
+        <div class="col-lg-4 col-md-12 fea">
+          <img src="images/pool.jpg" class="features-img">
+          <h3 class="feature-heading">Stunning Pool with a View</h3>
+          <p>Pool is Surrounded by the Pacific Ocean with unobstructed views of Land’s End.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- reviews section -->
+
+  <section id="reviews">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="car-img" src="images/img1.jpg" class="d-block w-100">
+          <div class="review">
+            <img id="img-rev" class="ct-image" src="https://foxberryinn.com/wp-content/uploads/2020/03/google.jpeg">
+            <img src="https://foxberryinn.com/wp-content/uploads/2020/03/google-1.jpeg">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="car-img" src="images/img2.jpg" class="d-block w-100">
+          <div class="review">
+            <img class="ct-image"  src="https://foxberryinn.com/wp-content/uploads/2020/03/tripadvisor-1.jpeg" >
+            <img id="tripadvisor"  src="https://foxberryinn.com/wp-content/uploads/2020/03/tripadvisor-2.jpeg" >
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="car-img" src="images/img3.jpg" class="d-block w-100">
+          <div class="review">
+            <img class="ct-image" src="https://foxberryinn.com/wp-content/uploads/2020/03/booking.jpeg">
+            <img src="https://foxberryinn.com/wp-content/uploads/2020/03/booking-3.jpeg">
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- contact us section -->
+  <section id="contact">
+    <div class="container-fluid contactus">
+      <img src="images/pine.jpg" class="pineapple">
+      <div class="details">
+        <h3>Address</h3>
+        <p>2800 SW 28th Terrace, Miami, FL.</p>
+        <h3>Phone No.</h3>
+        <h4>00000000000</h4>
+        <button type="button" class="book-btn btn btn-outline-dark btn-sm"><i class="fas fa-concierge-bell"></i> Book-A-Room</button>
+      </div>
+    </div>
+
+  </section>
+
+
+  <footer>
+    <div class="container-fluid main-container">
+      <h4>&copy; Designed & Developed by <a href="https://4bhishek10.github.io/Abhishek-Dhondge/">Abhishek Dhondge</a>.</h4>
+    </div>
+  </footer>
+</body>
+
+</html>
