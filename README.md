@@ -1,0 +1,2 @@
+# Hotel
+Demo hotel site
